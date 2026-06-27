@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Elements - Solid State by HTML5 UP</title>
+		<title>数学知识 · 知识探索站</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,24 +19,23 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Solid State</a></h1>
+						<h1><a href="index.html">知识探索站</a></h1>
 						<nav>
-							<a href="#menu">Menu</a>
+							<a href="#menu">菜单</a>
 						</nav>
 					</header>
 
 				<!-- Menu -->
 					<nav id="menu">
 						<div class="inner">
-							<h2>Menu</h2>
+							<h2>菜单</h2>
 							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="index.html">首页</a></li>
+								<li><a href="generic.html">Minecraft下载</a></li>
+								<li><a href="elements.html">数学知识</a></li>
+								<li><a href="index.html#other">其他</a></li>
 							</ul>
-							<a href="#" class="close">Close</a>
+							<a href="#" class="close">关闭</a>
 						</div>
 					</nav>
 
@@ -44,8 +43,8 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Elements</h2>
-								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+								<h2>数学知识库</h2>
+								<p>代数 · 几何 · 微积分 · 概率统计 —— 用数学思维看世界。</p>
 							</div>
 						</header>
 
@@ -54,52 +53,49 @@
 								<div class="inner">
 
 									<section>
-										<h3 class="major">Text</h3>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<h4>Blockquote</h4>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h4>Preformatted</h4>
-										<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+										<h3 class="major">文本与公式</h3>
+										<p>这是 <b>粗体</b> 和 <strong>重要强调</strong>。这是 <i>斜体</i> 和 <em>着重语气</em>。
+										这是 <sup>上标</sup>（如平方 x²）和 <sub>下标</sub>（如化学式 H₂O）。
+										这是 <u>下划线</u> 以及行内代码：<code>sin(x) + cos(x)</code>。最后，<a href="#">这是一个链接</a> 指向数学参考。
+										</p>
+										<h4>名家语录</h4>
+										<blockquote>“数学是上帝用来书写宇宙的语言。” —— 伽利略 · 伽利莱</blockquote>
+										<h4>代码示例（牛顿迭代法）</h4>
+										<pre><code>def newton_sqrt(x, tolerance=1e-10):
+    guess = x / 2
+    while True:
+        new_guess = 0.5 * (guess + x / guess)
+        if abs(new_guess - guess) < tolerance:
+            return new_guess
+        guess = new_guess</code></pre>
 									</section>
 
 									<section>
-										<h3 class="major">Lists</h3>
+										<h3 class="major">列表与图标</h3>
 										<div class="row">
 											<div class="col-6 col-12-medium">
-												<h4>Unordered</h4>
+												<h4>常用数学软件</h4>
 												<ul>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Sagittis adipiscing.</li>
-													<li>Felis enim feugiat.</li>
+													<li>Mathematica</li>
+													<li>MATLAB</li>
+													<li>Python (NumPy, SciPy)</li>
 												</ul>
-												<h4>Alternate</h4>
+												<h4>推荐书籍</h4>
 												<ul class="alt">
-													<li>Dolor pulvinar etiam.</li>
-													<li>Sagittis adipiscing.</li>
-													<li>Felis enim feugiat.</li>
+													<li>《普林斯顿微积分读本》</li>
+													<li>《线性代数及其应用》</li>
+													<li>《统计学习导论》</li>
 												</ul>
 											</div>
 											<div class="col-6 col-12-medium">
-												<h4>Ordered</h4>
+												<h4>数学竞赛路径</h4>
 												<ol>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Etiam vel felis viverra.</li>
-													<li>Felis enim feugiat.</li>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Etiam vel felis lorem.</li>
-													<li>Felis enim et feugiat.</li>
+													<li>中学数学联赛</li>
+													<li>全国大学生数学竞赛</li>
+													<li>国际数学奥林匹克（IMO）</li>
+													<li>丘成桐大学生数学竞赛</li>
 												</ol>
-												<h4>Icons</h4>
+												<h4>社交图标（示例）</h4>
 												<ul class="icons">
 													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -108,40 +104,40 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 												</ul>
 											</div>
 										</div>
-										<h4>Actions</h4>
+										<h4>操作按钮（示例）</h4>
 										<div class="row">
 											<div class="col-6 col-12-medium">
 												<ul class="actions">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button primary">查看证明</a></li>
+													<li><a href="#" class="button">下载习题</a></li>
 												</ul>
 												<ul class="actions small">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button primary small">小按钮</a></li>
+													<li><a href="#" class="button small">小按钮</a></li>
 												</ul>
 												<ul class="actions stacked">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button primary">主要操作</a></li>
+													<li><a href="#" class="button">次要操作</a></li>
 												</ul>
 												<ul class="actions stacked small">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button primary small">小尺寸主要</a></li>
+													<li><a href="#" class="button small">小尺寸次要</a></li>
 												</ul>
 											</div>
 											<div class="col-6 col-12-medium">
 												<ul class="actions stacked">
-													<li><a href="#" class="button primary fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button primary fit">填满宽度</a></li>
+													<li><a href="#" class="button fit">填满宽度</a></li>
 												</ul>
 												<ul class="actions stacked small">
-													<li><a href="#" class="button primary small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button primary small fit">小尺寸填满</a></li>
+													<li><a href="#" class="button small fit">小尺寸填满</a></li>
 												</ul>
 											</div>
 										</div>
-										<h4>Pagination</h4>
+										<h4>分页（示例）</h4>
 										<ul class="pagination">
-											<li><span class="button small disabled">Prev</span></li>
+											<li><span class="button small disabled">上一页</span></li>
 											<li><a href="#" class="page active">1</a></li>
 											<li><a href="#" class="page">2</a></li>
 											<li><a href="#" class="page">3</a></li>
@@ -149,99 +145,94 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 											<li><a href="#" class="page">8</a></li>
 											<li><a href="#" class="page">9</a></li>
 											<li><a href="#" class="page">10</a></li>
-											<li><a href="#" class="button small">Next</a></li>
+											<li><a href="#" class="button small">下一页</a></li>
 										</ul>
 									</section>
 
 									<section>
-										<h3 class="major">Table</h3>
-										<h4>Default</h4>
+										<h3 class="major">数学函数表</h3>
+										<h4>常见导数</h4>
 										<div class="table-wrapper">
 											<table>
 												<thead>
 													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
+														<th>函数</th>
+														<th>导数</th>
+														<th>说明</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
+														<td>xⁿ</td>
+														<td>n·xⁿ⁻¹</td>
+														<td>幂函数</td>
 													</tr>
 													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
+														<td>eˣ</td>
+														<td>eˣ</td>
+														<td>指数函数</td>
 													</tr>
 													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
+														<td>ln(x)</td>
+														<td>1/x</td>
+														<td>自然对数</td>
 													</tr>
 													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
+														<td>sin(x)</td>
+														<td>cos(x)</td>
+														<td>正弦</td>
 													</tr>
 													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
+														<td>cos(x)</td>
+														<td>-sin(x)</td>
+														<td>余弦</td>
 													</tr>
 												</tbody>
 												<tfoot>
 													<tr>
 														<td colspan="2"></td>
-														<td>100.00</td>
+														<td>基础导数表</td>
 													</tr>
 												</tfoot>
 											</table>
 										</div>
 
-										<h4>Alternate</h4>
+										<h4>数学常数（备用表）</h4>
 										<div class="table-wrapper">
 											<table class="alt">
 												<thead>
 													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
+														<th>常数</th>
+														<th>符号</th>
+														<th>近似值</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
+														<td>圆周率</td>
+														<td>π</td>
+														<td>3.14159</td>
 													</tr>
 													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
+														<td>自然对数的底</td>
+														<td>e</td>
+														<td>2.71828</td>
 													</tr>
 													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
+														<td>黄金分割比</td>
+														<td>φ</td>
+														<td>1.61803</td>
 													</tr>
 													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
+														<td>欧拉常数</td>
+														<td>γ</td>
+														<td>0.57721</td>
 													</tr>
 												</tbody>
 												<tfoot>
 													<tr>
 														<td colspan="2"></td>
-														<td>100.00</td>
+														<td>常见数学常数</td>
 													</tr>
 												</tfoot>
 											</table>
@@ -249,85 +240,55 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									</section>
 
 									<section>
-										<h3 class="major">Buttons</h3>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Primary</a></li>
-											<li><a href="#" class="button">Default</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button large">Large</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button primary fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button primary disabled">Disabled</span></li>
-											<li><span class="button disabled">Disabled</span></li>
-										</ul>
-									</section>
-
-									<section>
-										<h3 class="major">Form</h3>
+										<h3 class="major">表单（咨询数学问题）</h3>
 										<form method="post" action="#">
 											<div class="row gtr-uniform">
 												<div class="col-6 col-12-xsmall">
-													<label for="demo-name">Name</label>
+													<label for="demo-name">姓名</label>
 													<input type="text" name="demo-name" id="demo-name" value="" />
 												</div>
 												<div class="col-6 col-12-xsmall">
-													<label for="demo-email">Email</label>
+													<label for="demo-email">邮箱</label>
 													<input type="email" name="demo-email" id="demo-email" value="" />
 												</div>
 												<div class="col-12">
-													<label for="demo-category">Category</label>
+													<label for="demo-category">问题分类</label>
 													<select name="demo-category" id="demo-category">
-														<option value="">-</option>
-														<option value="1">Manufacturing</option>
-														<option value="1">Shipping</option>
-														<option value="1">Administration</option>
-														<option value="1">Human Resources</option>
+														<option value="">- 请选择 -</option>
+														<option value="1">代数</option>
+														<option value="2">几何</option>
+														<option value="3">微积分</option>
+														<option value="4">概率统计</option>
 													</select>
 												</div>
 												<div class="col-4 col-12-small">
 													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low Priority</label>
+													<label for="demo-priority-low">低优先级</label>
 												</div>
 												<div class="col-4 col-12-small">
 													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal Priority</label>
+													<label for="demo-priority-normal">中优先级</label>
 												</div>
 												<div class="col-4 col-12-small">
 													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High Priority</label>
+													<label for="demo-priority-high">高优先级</label>
 												</div>
 												<div class="col-6 col-12-small">
 													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy</label>
+													<label for="demo-copy">邮件抄送给我</label>
 												</div>
 												<div class="col-6 col-12-small">
 													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">Not a robot</label>
+													<label for="demo-human">我不是机器人</label>
 												</div>
 												<div class="col-12">
-													<label for="demo-message">Message</label>
-													<textarea name="demo-message" id="demo-message" rows="6"></textarea>
+													<label for="demo-message">详细描述</label>
+													<textarea name="demo-message" id="demo-message" rows="6">请在此输入您的数学问题或需求……</textarea>
 												</div>
 												<div class="col-12">
 													<ul class="actions">
-														<li><input type="submit" value="Send Message" class="primary" /></li>
-														<li><input type="reset" value="Reset" /></li>
+														<li><input type="submit" value="发送问题" class="primary" /></li>
+														<li><input type="reset" value="重置" /></li>
 													</ul>
 												</div>
 											</div>
@@ -335,25 +296,25 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									</section>
 
 									<section>
-										<h3 class="major">Image</h3>
-										<h4>Fit</h4>
+										<h3 class="major">图片展示（数学相关）</h3>
+										<h4>自适应网格</h4>
 										<div class="box alt">
 											<div class="row gtr-uniform">
-												<div class="col-12"><span class="image fit"><img src="images/pic08.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic07.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic07.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic07.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
+												<div class="col-12"><span class="image fit"><img src="images/pic08.jpg" alt="数学图形" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="函数图像" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="几何体" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic07.jpg" alt="概率分布" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic07.jpg" alt="统计图表" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="矩阵" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="微积分示意" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="拓扑" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic07.jpg" alt="分形" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="数论" /></span></div>
 											</div>
 										</div>
-										<h4>Left &amp; Right</h4>
-										<p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-										<p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius. Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui.</p>
+										<h4>左浮动与右浮动</h4>
+										<p><span class="image left"><img src="images/pic01.jpg" alt="欧拉公式" /></span>欧拉公式 e^(iπ) + 1 = 0 被誉为“最美的数学公式”，它将五个最重要的数学常数（e、i、π、1、0）优雅地联系在了一起。本图展示了复数平面上的几何意义。</p>
+										<p><span class="image right"><img src="images/pic02.jpg" alt="斐波那契数列" /></span>斐波那契数列（1, 1, 2, 3, 5, 8, …）在自然界和艺术中无处不在。其相邻两项的比值趋近于黄金分割比 φ≈1.618，体现了数学与美学的深度融合。</p>
 									</section>
 
 								</div>
@@ -364,41 +325,40 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+							<h2 class="major">联系我们</h2>
+							<p>如有任何建议、资源推荐或合作意向，欢迎通过以下方式与我们沟通。</p>
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
-										<label for="name">Name</label>
+										<label for="name">姓名</label>
 										<input type="text" name="name" id="name" />
 									</div>
 									<div class="field">
-										<label for="email">Email</label>
+										<label for="email">邮箱</label>
 										<input type="email" name="email" id="email" />
 									</div>
 									<div class="field">
-										<label for="message">Message</label>
+										<label for="message">留言内容</label>
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="发送消息" /></li>
 								</ul>
 							</form>
 							<ul class="contact">
 								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
+									知识探索站 · 工作室<br />
+									虚拟地址 · 在线服务
 								</li>
 								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+								<li class="icon solid fa-envelope"><a href="#">info@knowledge-station.tld</a></li>
+								<li class="icon brands fa-twitter"><a href="#">twitter.com/knowledge-station</a></li>
+								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/knowledge-station</a></li>
+								<li class="icon brands fa-instagram"><a href="#">instagram.com/knowledge-station</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; 2026 知识探索站. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
